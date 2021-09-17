@@ -1,0 +1,21 @@
+/*Wandratsch David, 3BHIT*/
+
+body
+{
+    color: black;
+    background-color: lightgray;
+    padding: 0em;
+    font-family: monospace;
+}
+
+h2
+{
+    text-align: center;
+}
+
+footer
+{
+    font-size: 12px;
+    font-family: monospace;
+    font-style: italic;
+}

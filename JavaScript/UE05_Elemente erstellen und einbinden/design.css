@@ -1,0 +1,39 @@
+/* Wandratsch David, 3BHIT */
+.column 
+{
+    float: left;
+    padding: 0px;
+}
+
+.column img 
+{
+    cursor: pointer;
+}
+
+.column img:hover 
+{
+    opacity: 1;
+}
+
+.row:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container 
+{
+    position: relative;
+    display: none;
+}
+
+#imgtext 
+{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+}

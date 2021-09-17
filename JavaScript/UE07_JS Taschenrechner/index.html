@@ -1,0 +1,62 @@
+<!-- Wandratsch David, 3BHIT -->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Übung 7 - JS Taschenrechner</title>
+    <link rel="stylesheet" type="text/css" href="design.css">
+    <script type="application/javascript" src="script.js"></script>
+</head>
+
+<body>
+
+<h1>Übung 7 - JS Taschenrechner</h1>
+
+    <main>
+
+    <div class="myJsCalc">
+        <form name="calculator" id="calculator">
+            <input type="text" name="inputwindow" id="inputwindow">
+            
+             <div class="results">
+                 <button type="button" id="clear" value="" onclick="clearInput(document.getElementById('clear').value)">Clear</button>
+                 <input type="button" id="equals" value="=" onclick="calculateResult()">
+             </div>
+             
+             <div>
+                 <input type="button" id="seven" value="7" onclick="getButtonValue(document.getElementById('seven').value)">
+                 <input type="button" id="eight" value="8" onclick="getButtonValue(document.getElementById('eight').value)">
+                 <input type="button" id="nine" value="9" onclick="getButtonValue(document.getElementById('nine').value)">
+                 <input type="button" id="plus" value="+" onclick="getButtonValue(document.getElementById('plus').value)">
+            </div>
+            
+            <div>
+              <input type="button" id="four" value="4" onclick="getButtonValue(document.getElementById('four').value)">
+              <input type="button" id="five" value="5" onclick="getButtonValue(document.getElementById('five').value)">
+              <input type="button" id="six" value="6" onclick="getButtonValue(document.getElementById('six').value)">
+              <input type="button" id="minus" value="-" onclick="getButtonValue(document.getElementById('minus').value)">
+            </div>
+            
+            <div>
+             <input type="button" id="one" value="1" onclick="getButtonValue(document.getElementById('one').value)">
+             <input type="button" id="two" value="2" onclick="getButtonValue(document.getElementById('two').value)">
+             <input type="button" id="three" value="3" onclick="getButtonValue(document.getElementById('three').value)">
+             <input type="button" id="times" value="*" onclick="getButtonValue(document.getElementById('times').value)">
+            </div>
+            
+            <div>
+             <input type="button" id="percent" value="%" onclick="getButtonValue(document.getElementById('percent').value)">
+             <input type="button" id="zero" value="0" onclick="getButtonValue(document.getElementById('zero').value)">
+             <input type="button" id="decimal" value="." onclick="getButtonValue(document.getElementById('decimal').value)">
+             <input type="button" id="divide" value="/" onclick="getButtonValue(document.getElementById('divide').value)">
+            </div>
+        </form> 
+    </div>
+
+    </main>
+   
+    <footer>
+        <hr>&copy; David Wandratsch, 3BHIT
+    </footer>
+</body>
+</html>

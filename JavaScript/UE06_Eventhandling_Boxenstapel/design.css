@@ -1,0 +1,101 @@
+/* Wandratsch David, 3BHIT */
+html 
+{
+    height: 100%;
+}
+
+body 
+{
+    margin: 2vw;
+    padding-bottom: 2vw;
+    font-family: sans-serif;
+    font-size: 14pt;
+    line-height: 1.8;
+    counter-reset: counter1;
+}
+
+h1
+{
+    font-family: monospace;
+    text-align: center;
+    border: 2px solid black;
+}
+
+#boxes, #box1, #box2, #box3, #box4, #box5, #box6, #box7 
+{
+    position: absolute;
+    display: flex;
+    border: none;
+}
+
+#boxes 
+{
+    border: none !important;
+    top: 210px;
+}
+
+#box1 
+{
+    background-color: #FF99CC;
+    width: 248px;
+    height: 374px;
+}
+
+#box2 
+{
+    background-color: green;
+    width: 248px;
+    height: 110px;
+    top: 374px;
+}
+
+#box3 
+{
+    background-color: blue;
+    width: 332px;
+    height: 110px;
+    top: 484px;
+}
+
+#box4 
+{
+    background-color: yellow;
+    width: 242px;
+    height: 84px;
+    left: 248px;
+}
+
+#box5 
+{
+    background-color: purple;
+    width: 242px;
+    height: 200px;
+    left: 248px;
+    top: 84px;
+}
+
+#box6 
+{
+    background-color: cyan;
+    width: 242px;
+    height: 200px;
+    left: 248px;
+    top: 284px;
+}
+
+#box7 
+{
+    background-color: gray;
+    width: 158px;
+    height: 110px;
+    top: 484px;
+    left: 332px;
+}
+
+footer 
+{
+    height: 30px;
+    width: 100%;
+    margin-top: 50px;
+    padding: 20px 20px 20px -20px;
+}

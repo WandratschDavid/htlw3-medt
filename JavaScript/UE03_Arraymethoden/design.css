@@ -1,0 +1,25 @@
+/* Wandratsch David, 3BHIT */
+body
+{
+    background-color: lightgray;
+    font-family: cursive, sans-serif;
+    font-size: 12pt;
+}
+
+body > main
+{
+    color: black;
+}
+
+hr
+{
+    border: 2px solid darkred;
+}
+
+footer 
+{
+    border-top: groove;
+    border-color: darkred;
+    width: 100%;
+    margin-top: 50px;
+}
